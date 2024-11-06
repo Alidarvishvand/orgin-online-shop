@@ -1,0 +1,8 @@
+asgiref==3.8.1
+Django==3.2.25
+psycopg==3.2.3
+psycopg-binary==3.2.3
+python-decouple==3.8
+pytz==2024.2
+sqlparse==0.5.1
+typing_extensions==4.12.2

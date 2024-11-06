@@ -13,6 +13,7 @@ services:
     
     expose:
       - 5432
+
     restart: always
 
   backend:
@@ -24,10 +25,11 @@ services:
       - ./core:/usr/src/app
     working_dir: /usr/src/app
     command:  python manage.py runserver 0.0.0.0:8000
-    ports:
-      - 8000:8000
+
     environment:
       - DEBUG=True
+
+
 
     restart: always
     depends_on:
